@@ -9,10 +9,24 @@ namespace RVVwebsite
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery-{version}.js",
+                        "~/Scripts/bootstrap.js",
+                        "~/Scripts/bootstrap.min.js",
+                        "~/Scripts/npm.js",
+                        "~/assets/js/masonry.js",
+                        "~/assets/js/holder.js",
+                        "~/assets/js/holder.min.js",
+                        "~/assets/js/ie-emulation-modes-warning.js",
+                        "~/assets/js/pushy.min.js",
+                        "~/assets/js/jquery.magnific-popup.min.js",
+                        "~/assets/js/wow.min.js",
+                        "~/assets/js/scripts.js",
+                        "~/assets/js/odometer.js",
+                        "~/assets/js/ie10-viewport-bug-workaround.js",
+                        "~/assets/js/jquery.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Scripts/jquery.validate*"));
+                    "~/Scripts/jquery.validate*"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
@@ -25,7 +39,16 @@ namespace RVVwebsite
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap.min.css",
+                      "~/Content/bootstrap.css.map",
+                      "~/Content/theme.css",
+                      "~/Content/site.css",
+                      "~/assets/css/masonry.css",
+                      "~/assets/css/pushy.css",
+                      "~/assets/css/animate.css",
+                      "~/assets/css/magnific-popup.css",
+                      "~/assets/css/odometer-theme-default.css"));
+
         }
     }
 }

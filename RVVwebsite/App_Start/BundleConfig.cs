@@ -9,7 +9,8 @@ namespace RVVwebsite
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js",
+                        "~/Scripts/jquery-3.1.1.js",
+                        "~/Scripts/jquery.modal.js",
                         "~/Scripts/bootstrap.js",
                         "~/Scripts/bootstrap.min.js",
                         "~/Scripts/npm.js",
@@ -44,6 +45,7 @@ namespace RVVwebsite
                       "~/Content/theme.css",
                       "~/Content/site.css",
                       "~/assets/css/masonry.css",
+                      "~/Content/jquery.modal.css",
                       "~/assets/css/pushy.css",
                       "~/assets/css/animate.css",
                       "~/assets/css/magnific-popup.css",

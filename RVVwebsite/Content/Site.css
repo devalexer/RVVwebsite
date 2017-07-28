@@ -42,7 +42,7 @@ span.x4:before, i.x4:before {
 
 header .container-fluid {
     /*background-image: url("");*/
-    background-image: url('../images/classicBackground.jpg');
+    background-image: url('../images/emptyBeachLg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -91,7 +91,7 @@ header .container-fluid {
 \*------------------------------------*/
 
 .number .container-fluid {
-    background-image: url('https://unsplash.it/3000/2000?image=685');
+    background-image: url('../images/beachBoat.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -185,4 +185,16 @@ footer {
 
 #middleBlurb {
     text-align: justify;
+}
+
+/*------------------------------------*\
+	MODALS
+\*------------------------------------*/
+
+.modal-body {
+    color: black;
+}
+
+.modal-title {
+    color: black;
 }

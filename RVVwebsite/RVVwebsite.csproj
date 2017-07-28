@@ -467,16 +467,10 @@
     <Content Include="images\emptyBeachLg.jpg" />
     <Content Include="images\emptyBeachSm.jpg" />
     <Content Include="images\expansiveBeach.jpg" />
+    <Content Include="images\Favicon.png" />
     <Content Include="images\harbor.jpg" />
     <Content Include="images\igreja.jpg" />
     <Content Include="images\kitesurf sunset.jpg" />
-    <Content Include="images\logo-sample-01.jpg" />
-    <Content Include="images\logo-sample-02.jpg" />
-    <Content Include="images\logo-sample-03.png" />
-    <Content Include="images\logo-sample-04.jpg" />
-    <Content Include="images\logo-sample-05.jpg" />
-    <Content Include="images\logo-sample-06.jpg" />
-    <Content Include="images\logo-sample-06.png" />
     <Content Include="images\Logo.png" />
     <Content Include="images\palmSunset.jpg" />
     <Content Include="images\pathToBeach.jpg" />
@@ -487,9 +481,24 @@
     <Content Include="images\sunsetBeachShadows.jpg" />
     <Content Include="images\threeUmbrellas.jpg" />
     <Content Include="images\vibrantBeach.jpg" />
-    <Content Include="images\whaleTail.jpg" />
+    <Content Include="images\watersports\aboveAbrolhos.jpg" />
+    <Content Include="images\watersports\Favicon.png" />
+    <Content Include="images\watersports\fish.jpg" />
+    <Content Include="images\watersports\fish2.jpg" />
+    <Content Include="images\watersports\groupSnorkel.jpg" />
+    <Content Include="images\watersports\kitesurf.jpg" />
+    <Content Include="images\watersports\kitesurf2.jpg" />
+    <Content Include="images\watersports\kitesurfFar.jpg" />
+    <Content Include="images\watersports\kitesurfGirl.jpeg" />
+    <Content Include="images\watersports\mangues.jpg" />
+    <Content Include="images\watersports\snorkeler.jpg" />
+    <Content Include="images\watersports\snorkeling.jpg" />
+    <Content Include="images\watersports\snorkeling2.jpg" />
+    <Content Include="images\watersports\whale.jpg" />
+    <Content Include="images\watersports\whale2.jpg" />
+    <Content Include="images\watersports\whale3.jpg" />
+    <Content Include="images\watersports\whaleTail.jpg" />
     <Content Include="images\womanDiving.jpg" />
-    <Content Include="images\your_logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js">
       <DependentUpon>bootstrap.js</DependentUpon>
@@ -526,6 +535,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\pousada\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

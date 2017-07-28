@@ -187,6 +187,38 @@ footer {
     text-align: justify;
 }
 
+#responsibilityStatement {
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+}
+
+/*------------------------------------*\
+	PASSEIOS DE BARCO
+\*------------------------------------*/
+
+#detailsBox {
+    margin-top: 2em;
+    border: 1px solid black;
+}
+
+#passeiosButtons {
+    margin: 2em 10px 0 10px;
+}
+
+#caption {
+    text-align: center;
+}
+
+/*------------------------------------*\
+	KITESURFING
+\*------------------------------------*/
+#kitesurfThumbnails {
+    height: 100px;
+    width: 100px;
+    padding: 2em 0 0 0;
+}
+
 /*------------------------------------*\
 	MODALS
 \*------------------------------------*/
@@ -197,4 +229,10 @@ footer {
 
 .modal-title {
     color: black;
+}
+
+#topImages {
+    height: 115px;
+    width: 160px;
+    padding-bottom: 1em;
 }

@@ -475,6 +475,19 @@
     <Content Include="images\palmSunset.jpg" />
     <Content Include="images\pathToBeach.jpg" />
     <Content Include="images\pauloJr.jpg" />
+    <Content Include="images\pousada\airconditioner.JPG" />
+    <Content Include="images\pousada\baneiro.jpg" />
+    <Content Include="images\pousada\bedBath.JPG" />
+    <Content Include="images\pousada\bedroom.jpg" />
+    <Content Include="images\pousada\building.jpg" />
+    <Content Include="images\pousada\hammock.JPG" />
+    <Content Include="images\pousada\hammock2.jpg" />
+    <Content Include="images\pousada\hand.JPG" />
+    <Content Include="images\pousada\sala.jpg" />
+    <Content Include="images\pousada\sideYard.jpg" />
+    <Content Include="images\pousada\vista.jpg" />
+    <Content Include="images\pousada\wall.JPG" />
+    <Content Include="images\pousada\yard.jpg" />
     <Content Include="images\prettyHarborSmall.jpg" />
     <Content Include="images\purpleSky.JPG" />
     <Content Include="images\saoJoao.JPG" />
@@ -482,6 +495,8 @@
     <Content Include="images\threeUmbrellas.jpg" />
     <Content Include="images\vibrantBeach.jpg" />
     <Content Include="images\watersports\aboveAbrolhos.jpg" />
+    <Content Include="images\watersports\abrolhos2.jpg" />
+    <Content Include="images\watersports\abrolhos3.jpg" />
     <Content Include="images\watersports\Favicon.png" />
     <Content Include="images\watersports\fish.jpg" />
     <Content Include="images\watersports\fish2.jpg" />
@@ -491,6 +506,7 @@
     <Content Include="images\watersports\kitesurfFar.jpg" />
     <Content Include="images\watersports\kitesurfGirl.jpeg" />
     <Content Include="images\watersports\mangues.jpg" />
+    <Content Include="images\watersports\snorkelAbrolhos.jpg" />
     <Content Include="images\watersports\snorkeler.jpg" />
     <Content Include="images\watersports\snorkeling.jpg" />
     <Content Include="images\watersports\snorkeling2.jpg" />
@@ -535,7 +551,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="images\pousada\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

@@ -91,6 +91,12 @@
                     <div class="row">
                         <div class="col-md-offset-1 col-md-10">
                             <h2>Pousada</h2>
+                            <!-- Button trigger modal -->
+                            <div class="row">
+                                <button type="button" class="btn btn-primary btn-md" id="passeiosButtons" data-toggle="modal" data-target="#pousadaPics">
+                                    Imagems da Pousada
+                                </button>
+                            </div>
                             <p>
                                 Pra você que deseja passar momentos de tranquilidade e ao mesmo tempo prazeroso não pode deixar de incluir esse paraíso em sua rota.
                             </p>
@@ -114,17 +120,6 @@
                             </p>
                         </div>
                     </div>
-                    @*<div class="row text-center">*@
-                    <!-- set the numbers in assets/js/scripts.js  -->
-                    @*<div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp">
-                                <h5>Ultricies</h5>
-                                <h3 class="odometer 01">00000</h3>
-                            </div>
-                            <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-2 col-md-offset-2 col-sm-6 wow fadeInUp" data-wow-delay="300ms">
-                                <h5>Fermentum</h5>
-                                <h3 class="odometer 02">00000</h3>
-                            </div>
-                        </div>*@
                 </div>
             </div>
         </div>
@@ -144,18 +139,18 @@
                 <p>
                     Opção segura para quem gosta de caminhadas, trilhas e privacidade.
                 </p>
-                        <!-- Button trigger modals -->
-                    <div class="row">
-                        <button type="button" class="btn btn-primary btn-md" id="passeiosButtons" data-toggle="modal" data-target="#snorkeling">
-                            Mergulhos e Snorkel
-                        </button>
-                        <button type="button" class="btn btn-primary btn-md" id="passeiosButtons" data-toggle="modal" data-target="#abrolhos">
-                            Abrolhos
-                        </button>
-                        <button type="button" class="btn btn-primary btn-md" id="passeiosButtons" data-toggle="modal" data-target="#baleia">
-                            Baleia Jubarte
-                        </button>
-                    </div>
+                <!-- Button trigger modals -->
+                <div class="row">
+                    <button type="button" class="btn btn-primary btn-md" id="passeiosButtons" data-toggle="modal" data-target="#snorkeling">
+                        Mergulhos e Snorkel
+                    </button>
+                    <button type="button" class="btn btn-primary btn-md" id="passeiosButtons" data-toggle="modal" data-target="#abrolhos">
+                        Abrolhos
+                    </button>
+                    <button type="button" class="btn btn-primary btn-md" id="passeiosButtons" data-toggle="modal" data-target="#baleia">
+                        Baleia Jubarte
+                    </button>
+                </div>
                 <div class="row">
                     <div class="col-md-4 boxes col-xs-6 col-xs-offset-3 col-lg-4 col-lg-offset-1 col-md-offset-1 col-sm-6 wow fadeInUp" id="detailsBox">
                         <small>
@@ -291,24 +286,24 @@
                 pois Nova Viçosa - BA acredita que este compromisso de preservação do meio ambiente e valorização das pessoas é um caminho para o crescimento
                 da cidade e para criação de valores.
             </p>
-            <div class="col-md-2">
-                <img src="images/logo-sample-01.jpg" class="img-responsive" />
-            </div>
-            <div class="col-md-2">
-                <img src="images/logo-sample-02.jpg" class="img-responsive" />
-            </div>
-            <div class="col-md-2">
-                <img src="images/logo-sample-03.png" class="img-responsive" />
-            </div>
-            <div class="col-md-2">
-                <img src="images/logo-sample-04.jpg" class="img-responsive" />
-            </div>
-            <div class="col-md-2">
-                <img src="images/logo-sample-05.jpg" class="img-responsive" />
-            </div>
-            <div class="col-md-2">
-                <img src="images/logo-sample-06.png" class="img-responsive" />
-            </div>
+            @*<div class="col-md-2">
+                    <img src="images/logo-sample-01.jpg" class="img-responsive" />
+                </div>
+                <div class="col-md-2">
+                    <img src="images/logo-sample-02.jpg" class="img-responsive" />
+                </div>
+                <div class="col-md-2">
+                    <img src="images/logo-sample-03.png" class="img-responsive" />
+                </div>
+                <div class="col-md-2">
+                    <img src="images/logo-sample-04.jpg" class="img-responsive" />
+                </div>
+                <div class="col-md-2">
+                    <img src="images/logo-sample-05.jpg" class="img-responsive" />
+                </div>
+                <div class="col-md-2">
+                    <img src="images/logo-sample-06.png" class="img-responsive" />
+                </div>*@
         </div>
     </div>
 </section>
@@ -363,13 +358,13 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="~/images/watersports/snorkeling.jpg" id="topImages"/>
+                            <img src="~/images/watersports/snorkeling.jpg" id="topImages" />
                         </div>
                         <div class="col-md-4">
-                            <img src="~/images/watersports/snorkeling2.jpg" id="topImages"/>
+                            <img src="~/images/watersports/snorkeling2.jpg" id="topImages" />
                         </div>
                         <div class="col-md-4">
-                            <img src="~/images/watersports/snorkeler.jpg" id="topImages"/>
+                            <img src="~/images/watersports/snorkeler.jpg" id="topImages" />
                         </div>
                     </div>
                     O mergulho é uma das maneiras mais fáceis de transformar a sua experiência do mundo ao seu redor. Por simplesmente mergulhar a cabeça debaixo d'água, você é imediatamente surgiu em um ambiente totalmente diferente e único.
@@ -403,10 +398,10 @@
                             <img src="~/images/watersports/aboveAbrolhos.jpg" id="topImages" />
                         </div>
                         <div class="col-md-4">
-                            <img src="~/images/watersports/" id="topImages" />
+                            <img src="~/images/watersports/abrolhos2.jpg" id="topImages" />
                         </div>
                         <div class="col-md-4">
-                            <img src="~/images/watersports/snorkeler.jpg" id="topImages" />
+                            <img src="~/images/watersports/abrolhos3.jpg" id="topImages" />
                         </div>
                     </div>
                     Criado em 1983, pelo Ibama, o Parque Nacional Marinho dos Abrolhos é um conjunto de ilhas vulcânicas e recifes coralíneos. Localizado a 36 milhas náuticas (aproximadamente 70 quilômetros) da costa do Extremo Sul da Bahia. É uma das mais significativas áreas do litoral brasileiro, pela sua enorme biodiversidade e importantes ecossistemas.
@@ -439,13 +434,13 @@
                 <div class="modal-body">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="~/images/watersports/snorkeling.jpg" id="topImages" />
+                            <img src="~/images/watersports/whale2.jpg" id="topImages" />
                         </div>
                         <div class="col-md-4">
-                            <img src="~/images/watersports/snorkeling2.jpg" id="topImages" />
+                            <img src="~/images/watersports/whale.jpg" id="topImages" />
                         </div>
                         <div class="col-md-4">
-                            <img src="~/images/watersports/snorkeler.jpg" id="topImages" />
+                            <img src="~/images/watersports/whale3.jpg" id="topImages" />
                         </div>
                     </div>
                     Entre os meses de julho e Setembro é possível observar as Baleias Jubarte a poucos kilometros das prais de Nova Viçosa
@@ -463,4 +458,49 @@
         </div>
     </div>
 
-</footer>
+    <!-- Modal -->
+    <div class="modal fade" id="pousadaPics" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Baleia Jubarte</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/building.jpg" id="pousadaImages" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/bedroom.jpg" id="pousadaImages" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/bedBath.jpg" id="pousadaImages" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/baneiro.jpg" id="pousadaImages" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/airconditioner.jpg" id="pousadaImages" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/sideYard.jpg" id="pousadaImages" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/yard.jpg" id="pousadaImages" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/hammock.jpg" id="pousadaImages" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="~/images/pousada/vista.jpg" id="pousadaImages" />
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+

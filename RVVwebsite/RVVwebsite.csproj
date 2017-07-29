@@ -450,6 +450,8 @@
     <Content Include="bundleconfig.json.bindings">
       <DependentUpon>bundleconfig.json</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\rvv - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\rvv - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="images\abrolhosIslands.jpg" />
     <Content Include="images\barracas.jpg" />
